@@ -48,4 +48,8 @@ if __name__ == '__main__':
   test_pair_to_number('Black', 'Orange', 12)
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
-  print('Done :)')
+  c=0;
+  for i in (MAJOR_COLORS):
+     for j in (MINOR_COLORS):
+         c+=1
+         print("{}.{}".format(c,i),j)
